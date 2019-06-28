@@ -1,6 +1,6 @@
 import React from "react";
 
-const Search = (props) => {
+const Search = props => {
   console.log(props);
   return (
     <form onSubmit = {props.searchRecipe} className="input-group mb-3 justify-content-end">
